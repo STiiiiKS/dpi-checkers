@@ -1,5 +1,5 @@
 # DPI Checkers
-[![dpi-ch release](https://github.com/hyperion-cs/dpi-checkers/actions/workflows/dpich_release.yml/badge.svg)](https://github.com/hyperion-cs/dpi-checkers/actions/workflows/dpich_release.yml)
+[![dpi-ch release](https://github.com/stiiiiks/dpi-checkers/actions/workflows/dpich_release.yml/badge.svg)](https://github.com/stiiiiks/dpi-checkers/actions/workflows/dpich_release.yml)
 
 🚀 This repository contains checkers that allow you to determine if your residential ISP (or a server in a data center) has DPI, as well as the specific methods (and their parameters) the censor uses for restrictions.
 
@@ -17,8 +17,8 @@ preload checker in your browser.
 
 - ❗ **RU :: DPI-CH** (dpi comprehensive checker)<br>
   This is the "big brother" of all other checkers, not limited by the browser sandbox. It is an attempt to create a powerful tool for general-purpose DPI analysis.<br>
-  Extremely flexible configuration. Written in golang, builds are [available](https://github.com/hyperion-cs/dpi-checkers/releases/) for Windows/macOS/Linux/Android. See [documentation](https://github.com/hyperion-cs/dpi-checkers/tree/main/ru/dpi-ch/docs) for a detailed description.
-  ![gif](https://raw.githubusercontent.com/hyperion-cs/dpi-checkers/refs/heads/main/static/images/dpich_v0.8.0_demo.gif)
+  Extremely flexible configuration. Written in golang, builds are [available](https://github.com/hyperion-cs/dpi-checkers/releases/) for Windows/macOS/Linux/Android. See [documentation](https://github.com/stiiiiks/dpi-checkers/tree/main/ru/dpi-ch/docs) for a detailed description.
+  ![gif](https://raw.githubusercontent.com/stiiiiks/dpi-checkers/refs/heads/main/static/images/dpich_v0.8.0_demo.gif)
 
 - **RU :: TCP 16-20** => [https://hyperion-cs.github.io/dpi-checkers/ru/tcp-16-20](https://hyperion-cs.github.io/dpi-checkers/ru/tcp-16-20)<br>
   Allows to detect _TCP 16-20_ blocking method in Russia + host alive check. The tests use popular web-services hosted by providers whose subnets are potentially subject to limitations. The testing process runs right in your browser and the source code is available. VPN should be disabled during the check.<br>
@@ -31,7 +31,7 @@ preload checker in your browser.
 
   See [here](https://github.com/net4people/bbs/issues/490) for details on this blocking method.
 
-- **RU :: IPv4 Whitelisted Subnets** => [https://hyperion-cs.github.io/dpi-checkers/ru/ipv4-whitelisted-subnets](https://hyperion-cs.github.io/dpi-checkers/ru/ipv4-whitelisted-subnets)<br>
+- **RU :: IPv4 Whitelisted Subnets** => [https://hyperion-cs.github.io/dpi-checkers/ru/ipv4-whitelisted-subnets](https://stiiiiks.github.io/dpi-checkers/ru/ipv4-whitelisted-subnets)<br>
   Allows to detect [IPv4 subnets](https://en.wikipedia.org/wiki/Subnet) from the so-called "whitelist" in cases where a censor restricts TCP/UDP/etc connections by IP subnets (aka [CIDR](https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing) censorship). There are three control buttons:<br>
   - _Cache_ — fetch and cache suitable IPv4 subnets in the client browser (_local storage_) for further tests. They are saved even after reloading the checker's web page, exiting a browser, etc. This process uses services that are almost certainly not on the whitelist, so it is wise to run it when your provider does not use whitelists (e.g., your "home" ISP's Wi-Fi). This process can only be repeated when you want to update the list of testable subnets of suitable [ASes](https://en.wikipedia.org/wiki/Autonomous_system_(Internet)) (and they change quite rarely);
   - _Check_ — check suitable subnets if they are on the whitelist;
