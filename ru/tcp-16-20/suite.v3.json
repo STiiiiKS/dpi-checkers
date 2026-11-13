@@ -1,8 +1,8 @@
 [
   { "id": "X", "provider": "OV", "country": "🇫🇷", "host": "chk.technohive.vip" },
-  { "id": "US1", "provider": "GCP", "country": "🇺🇸", "host": "usmall.yuhner.co.uk" },
+  { "id": "US1", "provider": "GC", "country": "🇺🇸", "host": "usmall.yuhner.co.uk" },
   { "id": "DE1", "provider": "OD", "country": "🇩🇪", "host": "deart.yuhner.nl" },
-  { "id": "NL1", "provider": "Microsoft/Azure", "country": "🇳🇱", "host": "www.yuhner.nl" },  
+  { "id": "NL1", "provider": "FF", "country": "🇳🇱", "host": "www.yuhner.nl" },  
   { "id": "FI1", "provider": "UC", "country": "🇫🇮", "host": "finnish.yuhner.co.uk" },
   { "id": "UK2", "provider": "SeH", "country": "🇬🇧", "host": "lon.yuhner.co.uk" }
 ]
