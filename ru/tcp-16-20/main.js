@@ -281,7 +281,7 @@ const fetchAsn = async () => {
 
 const fetchSuite = async () => {
   try {
-    testSuite = await (await fetch(getUniqueUrl("./suite.v2.json"))).json();
+    testSuite = await (await fetch(getUniqueUrl("./suite.v3.json"))).json();
     startButtonEl.disabled = false;
   } catch {
     logPush("ERR", null, `Fetch suite failed. Probably a CORS issue (running locally?).`);
