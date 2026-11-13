@@ -20,7 +20,7 @@ preload checker in your browser.
   Extremely flexible configuration. Written in golang, builds are [available](https://github.com/stiiiiks/dpi-checkers/releases/) for Windows/macOS/Linux/Android. See [documentation](https://github.com/stiiiiks/dpi-checkers/tree/main/ru/dpi-ch/docs) for a detailed description.
   ![gif](https://raw.githubusercontent.com/stiiiiks/dpi-checkers/refs/heads/main/static/images/dpich_v0.8.0_demo.gif)
 
-- **RU :: TCP 16-20** => [https://hyperion-cs.github.io/dpi-checkers/ru/tcp-16-20](https://stiiiiks.github.io/dpi-checkers/ru/tcp-16-20)<br>
+- **RU :: TCP 16-20** => [https://stiiiiks.github.io/dpi-checkers/ru/tcp-16-20](https://stiiiiks.github.io/dpi-checkers/ru/tcp-16-20)<br>
   Allows to detect _TCP 16-20_ blocking method in Russia + host alive check. The tests use popular web-services hosted by providers whose subnets are potentially subject to limitations. The testing process runs right in your browser and the source code is available. VPN should be disabled during the check.<br>
   This checker has optional _GET_ parameters:
   | name | type |	default	| description |
